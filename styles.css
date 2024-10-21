@@ -56,6 +56,16 @@ h4 {
   font-weight: 600;
 }
 
+.btn {
+  font-weight: bold;
+  color: white;
+  background-color: #6415ff;
+  border: none;
+  border-radius: 500px;
+  padding: 12px 32px 12px 32px;
+  cursor: not-allowed;
+}
+
 /* 
 
 NAVIGATION BAR
@@ -341,15 +351,6 @@ QUALITY SECTION
   width: 400px;
 }
 
-.quality__btn {
-  font-weight: bold;
-  color: white;
-  background-color: #6415ff;
-  border: none;
-  border-radius: 500px;
-  padding: 12px 32px 12px 32px;
-}
-
 .quality__img--wrapper {
   width: 50%;
   margin-top: 24px;
@@ -451,4 +452,83 @@ STEPS SECTION
 .step__para {
   color: #7c8ba1;
   margin-top: 8px;
+}
+
+/*
+
+VALUES SECTION
+
+*/
+
+#values {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.values__row {
+  height: 75vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.values__description {
+  display: flex;
+  flex-direction: column;
+}
+
+.values {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.value:nth-of-type(1) {
+  margin-top: 32px;
+  margin-right: 32px;
+}
+
+.value:nth-of-type(2) {
+  margin-top: 32px;
+}
+
+.value__title {
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+}
+
+.value__img--wrapper {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.value__img--bg-green {
+  background-color: #8BE3A5;
+}
+
+.value__img--bg-red {
+  background-color: #feb2b2;
+}
+
+.value__img {
+  width: 20px;
+  height: 20px;
+}
+
+.value__name {
+  margin-left: 16px;
+}
+
+.value__para {
+  max-width: 220px;
+  margin-top: 16px;
+  padding-bottom: 40px;
+}
+
+.values__img {
+  width: 50%;
 }
